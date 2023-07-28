@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.Parent {
+    margin: 20px auto;
+    padding: 0;
+    display: flex;
+    width: 100%;
+}
+.ImageDiv img {
+    height: 100px;
+    margin-right: 20px;
+    width: auto;
+}
+.DescriptionDiv {
+    text-align: left;
+}
+.DescriptionDiv button {
+    display: block;
+    margin-left: auto;
+    margin-right: 200px;
+    padding: 0;
+    border: none;
+    background-color: white;
+    color: blue;
+}
+.AmountDiv {
+    margin-left: auto;
+    margin-right: 0;
+    text-align: center;
+}
+.AmountDiv button {
+    display: block;
+    padding: 0;
+    border: none;
+    background-color: white;
+    color: blue;
+}
